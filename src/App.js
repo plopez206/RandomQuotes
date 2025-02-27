@@ -101,7 +101,7 @@ class QuoteMachine extends React.Component {
               href={`https://x.com/intent/tweet?text=${encodeURIComponent(message + " - " + by)}`}
             >
               <button className="social-button" style={{ backgroundColor: color }}>
-                <img src="/x_logo.png" alt="X" />
+                <img src="/RandomQuotes/imagen.png" alt="X" />
               </button>
             </a>
             <button id="new-quote" onClick={this.setRandomQuotes} style={{ backgroundColor: color }}>
